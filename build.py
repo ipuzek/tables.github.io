@@ -63,7 +63,7 @@ pages = [
 
     {
         "output": "index.html",
-        "title": "KO data",
+        "title": "",
         "rows": fetch_tidy_ko(),
         "columns": [
             {"key": "ko_mb", "label": "Matični broj KO"},
@@ -77,7 +77,7 @@ pages = [
 
     {
         "output": "other.html",
-        "title": "Main books",
+        "title": "",
         "rows": fetch_tidy_mb(),
         "columns": [
             {"key": "mainBookId", "label": "MainBookId"},
